@@ -56,7 +56,8 @@ body {
   align-items: center;
   margin: 1rem 1rem;
 }
-.initialContent {
+.header__nav__link {
+  display: none;
 }
 .initialContent__titles {
   margin: 5rem 6rem 0 4rem;
