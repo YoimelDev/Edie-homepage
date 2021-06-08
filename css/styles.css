@@ -224,6 +224,9 @@ body {
   font-weight: 400;
   color: var(--gray2);
 }
+.team__description {
+  width: 36rem;
+}
 .team__img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
