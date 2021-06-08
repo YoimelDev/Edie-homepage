@@ -157,6 +157,7 @@ body {
   margin-top: 2rem;
   margin-bottom: 3rem;
   font-size: 1.6rem;
+  color: var(--gray2);
 }
 .services__card a {
   padding: 0.9rem 1.3rem;
@@ -220,6 +221,7 @@ body {
   margin-right: 8.2rem;
   font-size: 1.6rem;
   font-weight: 400;
+  color: var(--gray2);
 }
 .team__img {
   display: grid;
