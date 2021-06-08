@@ -177,6 +177,7 @@ body {
   margin: 6rem 6rem 4rem 4rem;
 }
 .designs__content {
+  max-width: 54.5rem;
   margin: 0 1rem;
   margin-bottom: 3.5rem;
 }
