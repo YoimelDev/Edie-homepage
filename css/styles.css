@@ -83,7 +83,7 @@ body {
   color: var(--gray2);
 }
 .form {
-  width: 29.1rem;
+  max-width: 29.1rem;
 }
 .form label {
   font-weight: 500;
@@ -301,6 +301,9 @@ body {
 .edie img {
   margin-top: 1rem;
   margin-right: 1rem;
+}
+.edie img:hover {
+  cursor: pointer;
 }
 .footer__form {
   margin-bottom: 19rem;
