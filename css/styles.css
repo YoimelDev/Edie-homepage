@@ -323,3 +323,115 @@ a {
   text-align: center;
   color: var(--gray6);
 }
+
+/* Desktop */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.6rem;
+  }
+  .header {
+    margin: 4rem 5rem;
+  }
+  .header__nav__mobileMenu {
+    display: none;
+  }
+  .header__nav__link,
+  .header__nav__link a {
+    display: flex;
+    gap: 2rem;
+    font-size: 2.4rem;
+    color: var(--gray);
+    text-decoration: none;
+  }
+  .initialContent__titles {
+    width: 54rem;
+  }
+  .initialContent__titles p {
+    font-size: 1.8rem;
+  }
+  .initialContent__titles h2 {
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+  }
+  .initialContent__main h2 {
+    width: 36.6rem;
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+  }
+  .initialContent__main p {
+    width: 36.6rem;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+  }
+  .form label {
+    font-size: 1.4rem;
+  }
+  .form input {
+    font-size: 1.8rem;
+  }
+  .form__btn {
+    margin-left: -7.7rem;
+    font-size: 1.8rem;
+  }
+  .services--h2 {
+    width: 32rem;
+    margin-top: 20rem;
+    margin-bottom: 4rem;
+    font-size: 3.6rem;
+  }
+  .services--box {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .services__card__icon {
+    margin-right: 0;
+  }
+  .designs {
+    margin: 0 auto;
+  }
+  .designs h2 {
+    width: 37rem;
+    font-size: 3.6rem;
+  }
+  .designs--grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+  }
+  .designs--grid h2 {
+    margin-left: 1rem;
+    grid-column: 1/3;
+  }
+  .designs__content p {
+    font-size: 1.4rem;
+  }
+  .designs__content h3 {
+    font-size: 2.4rem;
+  }
+  .designs__content:nth-child(2) {
+    margin-top: 10rem;
+  }
+  .designs__content:nth-child(4) {
+    margin-top: 10rem;
+  }
+  .designs__link {
+    grid-column: 1/3;
+    text-align: right;
+    margin-right: 1rem;
+  }
+  .designs a {
+    font-size: 2.4rem;
+  }
+  .team {
+    display: flex;
+    justify-content: center;
+  }
+  .footer--org {
+    display: flex;
+    justify-content: space-between;
+  }
+  .edie {
+    margin: 0;
+  }
+}
