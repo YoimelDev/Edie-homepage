@@ -26,14 +26,14 @@ Challenge where i put into practice my CSS skills, trying to make it as close as
 <details>
     <summary>🖥️ Desktop version</summary>
 
-![](img\desktop.png)
+![](img/desktop.png)
 
 </details>
 
 <details>
     <summary>📱 Mobile version</summary>
 
-![ghh](img\mobile.png)
+![](img/mobile.png)
 
 </details>
 
