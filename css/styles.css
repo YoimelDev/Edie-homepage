@@ -324,7 +324,7 @@ a {
   color: var(--gray6);
 }
 
-/* Desktop */
+/* Tablet */
 @media (min-width: 768px) {
   h1 {
     font-size: 3.6rem;
@@ -433,5 +433,52 @@ a {
   }
   .edie {
     margin: 0;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .initialContent__titles {
+    margin-left: 27rem;
+    margin-bottom: 2rem;
+  }
+  .initialContent__img img {
+    max-width: 130rem;
+  }
+  .initialContent__main {
+    margin-left: 27rem;
+  }
+  .testimonial {
+    display: grid;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .services {
+    margin: 0 16.5rem;
+  }
+  .services--h2 {
+    margin-left: 0;
+  }
+  .designs--grid {
+    margin: 0 16.5rem;
+  }
+  .team {
+    margin: 10rem 16.5rem;
+    justify-content: normal;
+  }
+  .person1 {
+    width: 26rem;
+  }
+  .person2 {
+    width: 29rem;
+  }
+  .person3 {
+    width: 32rem;
+  }
+  .footer {
+    padding-left: 16.5rem;
+    padding-right: 16.5rem;
   }
 }
